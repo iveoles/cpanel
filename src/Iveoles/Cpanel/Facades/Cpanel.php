@@ -1,4 +1,4 @@
-<?php namespace JoseLara\Cpanel\Facades;
+<?php namespace Iveoles\Cpanel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

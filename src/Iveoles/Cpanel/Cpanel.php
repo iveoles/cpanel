@@ -1,4 +1,4 @@
-<?php namespace JoseLara\Cpanel;
+<?php namespace Iveoles\Cpanel;
 
 use Exception;
 

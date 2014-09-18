@@ -1,4 +1,4 @@
-<?php namespace JoseLara\Cpanel;
+<?php namespace Iveoles\Cpanel;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -35,7 +35,7 @@ class CpanelServiceProvider extends ServiceProvider {
      */
     public function boot()
     {
-        $this->package('joselara/cpanel-laravel');
+        $this->package('iveoles/cpanel-laravel');
     }
 
 	/**

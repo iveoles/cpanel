@@ -1,15 +1,14 @@
 cPanel API package for Laravel 4
 ======
-originally forked from https://github.com/adelynx/cpanel
+originally forked from https://github.com/joselara/cpanel-laravel
 
 
 ## Installation
 
-Begin by installing this package through Composer. Edit your project's `composer.json` file to require `joselara/cpanel-laravel`.
+Begin by installing this package through Composer. Edit your project's `composer.json` file to require `iveoles/cpanel-laravel`.
 
     "require": {
-		"laravel/framework": "4.0.*",
-		"joselara/cpanel-laravel": "dev-master"
+		"iveoles/cpanel-laravel": "dev-master"
 	}
 
 Next, update Composer from the Terminal:
@@ -20,15 +19,15 @@ Once this operation completes add the service provider, aliases and configuratio
 
 1 - Provider: Open `app/config/app.php`, and add a new item to the providers array.
 
-    'JoseLara\Cpanel\CpanelServiceProvider'
+    'Iveoles\Cpanel\CpanelServiceProvider'
 
 2 - Provider: Open `app/config/app.php`, and add a new item to the facade array.
 
-    'Cpanel' => 'JoseLara\Cpanel\Facades\Cpanel',
+    'Cpanel' => 'Iveoles\Cpanel\Facades\Cpanel',
 
 3 - Publish Config
 
-    php artisan config:publish joselara/cpanel-laravel
+    php artisan config:publish iveoles/cpanel-laravel
 
 That's it! You're all set to go.
 

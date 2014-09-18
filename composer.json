@@ -1,10 +1,10 @@
 {
-    "name": "joselara/cpanel-laravel",
+    "name": "iveoles/cpanel-laravel",
     "description": "cPanel API Package for Laravel",
     "authors": [
         {
-            "name": "Jose Lara",
-            "email": "jose.lara@gmail.com"
+            "name": "Adam Greer",
+            "email": "iveoles@gmail.com"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "JoseLara\\Cpanel": "src/"
+            "Iveoles\\Cpanel": "src/"
         }
     },
     "minimum-stability": "dev"
